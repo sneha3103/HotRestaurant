@@ -19,7 +19,7 @@ module.exports = function (app) {
         res.json(restaurantData.waitingList);
     });
 
-    app.post("/api/tables", function(req, res) {
+    app.post("/api/reserve", function(req, res) {
         res.json(req.body);
 
     })

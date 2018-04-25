@@ -101,7 +101,7 @@
             customer.customerEmail = $("#customerEmail").val().trim();
             customer.customerId = $("#customerId").val().trim();
 
-            $.post("api/tables", customer, function(data){
+            $.post("api/reserve", customer, function(data){
                 console.log(data);
             })
 
