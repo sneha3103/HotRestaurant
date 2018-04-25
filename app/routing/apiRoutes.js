@@ -6,7 +6,7 @@ console.log(restaurantData);
 
 module.exports = function(app) {
     console.log("Export worked");
-}
+
 
 //Collect data from server
 app.get("/api/tables", function(req, res) {
@@ -17,6 +17,8 @@ app.get("/api/tables", function(req, res) {
 app.get("/api/waitlist", function(req, res) {
     res.json(restaurantData.waitingList);
 });
+
+};
 
 
 
