@@ -1,6 +1,6 @@
 var path = require("path");
 
-var restaurantData = require("../data/restaurant.js")
+var restaurantData = require("../data/restaurant.js");
 
 console.log(restaurantData);
 
@@ -10,8 +10,8 @@ module.exports = function(app) {
 
 //Collect data from server
 app.get("/api/tables", function(req, res) {
-    res.json("Test Data");
-    // res.json(restaurantData.Customers);
+    // res.json("Test Data");
+    res.json(restaurantData.Customers);
 });
 
 

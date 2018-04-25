@@ -1,5 +1,5 @@
 
-module.exports= Customers = [{
+module.exports.Customers = [{
     customerId:1,
     customerName:"John",
     phoneNumber:'281-123-2345',
@@ -19,4 +19,4 @@ module.exports= Customers = [{
 }
 ]
 
-module.exports= waitingList=[];
+module.exports.waitingList=[];
