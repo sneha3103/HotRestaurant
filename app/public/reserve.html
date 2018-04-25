@@ -10,8 +10,8 @@
 
 
     <!--link style and reset css files -->
-    <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="stylesheet" href="./assets/reset.css">
+    <!-- <link rel="stylesheet" href="./assets/styles.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/reset.css"> -->
 
 
     <!-- link to bootstrap library -->
@@ -103,7 +103,7 @@
             customer.customerEmail = $("#customerEmail").val().trim();
             customer.customerId = $("#customerId").val().trim();
 
-            $.post("api/reserve", customer, function(data){
+            $.post("/api/reserve", customer, function(data){
                 console.log(data);
             })
 
