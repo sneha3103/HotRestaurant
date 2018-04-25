@@ -1,6 +1,5 @@
 
-
-var Customers = [{
+module.exports= Customers = [{
     customerId:1,
     customerName:"John",
     phoneNumber:'281-123-2345',
@@ -20,4 +19,4 @@ var Customers = [{
 }
 ]
 
-var waitingList=[];
+module.exports= waitingList=[];
