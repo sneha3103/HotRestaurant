@@ -10,7 +10,8 @@ module.exports = function(app) {
 
 //Collect data from server
 app.get("/api/tables", function(req, res) {
-    res.json(restaurantData.Customers);
+    res.json("Test Data");
+    // res.json(restaurantData.Customers);
 });
 
 
