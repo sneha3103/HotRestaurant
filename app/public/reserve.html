@@ -92,7 +92,7 @@
     <script>
 
         $("#submitBtn").on("click", function(){
-            event.preventDefault;
+            event.preventDefault();
 
             var customer = {
 
@@ -103,7 +103,7 @@
             customer.customerEmail = $("#customerEmail").val().trim();
             customer.customerId = $("#customerId").val().trim();
 
-            $.post("/api/reserve", customer, function(data){
+            $.post("api/reserve", customer, function(data){
                 console.log(data);
             })
 
